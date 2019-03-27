@@ -29,7 +29,7 @@ resource "aws_iam_role_policy" "ebs_backup_policy" {
         {
             "Effect": "Allow",
             "Action": ["logs:*"],
-            "Resource": "arn:aws:logs:*:*:*"
+            "Resource": "arn:aws-us-gov:logs:*:*:*"
         },
         {
             "Effect": "Allow",
